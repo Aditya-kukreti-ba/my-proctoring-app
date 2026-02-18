@@ -5,7 +5,6 @@
 [![React](https://img.shields.io/badge/React-18.x-61DAFB?style=flat&logo=react&logoColor=white)](https://reactjs.org/)
 [![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-Latest-FF6F00?style=flat&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/js)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 **Built with modern web technologies • 100% free • Runs entirely in your browser • No API keys required**
 
