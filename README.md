@@ -604,12 +604,12 @@ Contributions are welcome! Please follow these guidelines:
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE]([LICENSE](https://github.com/Aditya-kukreti-ba/my-proctoring-app/blob/main/LICENSE)) file for details.
 
 ```
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2026 Aditya Kukreti
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
