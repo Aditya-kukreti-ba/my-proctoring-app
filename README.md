@@ -11,6 +11,16 @@
 
 ---
 
+## 🌐 Live Demo
+
+**Try it now:** [https://my-proctoring-app.vercel.app](https://my-proctoring-app.vercel.app)
+
+> No installation required! Click the link above to try the system directly in your browser.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/ai-proctoring-system)
+
+---
+
 ## 📋 Table of Contents
 
 - [Features](#-features)
@@ -59,6 +69,16 @@
 
 ## 🎥 Demo
 
+### 🌟 Live Application
+
+**Try it yourself:** [https://my-proctoring-app.vercel.app](https://my-proctoring-app.vercel.app)
+
+The live demo includes all features:
+- ✅ Real-time object detection
+- ✅ Head pose tracking
+- ✅ Violation logging
+- ✅ Statistics dashboard
+
 ### Detection Examples
 
 **✅ Looking at Screen (Normal Behavior)**
@@ -91,6 +111,14 @@ Time: 10:35:12 AM - Prohibited object: cell phone
 ---
 
 ## 🚀 Quick Start
+
+### Option 1: Try the Live Demo (Fastest!)
+
+Just visit: **[https://my-proctoring-app.vercel.app](https://my-proctoring-app.vercel.app)**
+
+No installation needed! Works in any modern browser.
+
+### Option 2: Run Locally
 
 Get up and running in 3 minutes!
 
@@ -166,12 +194,62 @@ npm start
 
 ---
 
+## 🚀 Deployment
+
+### Deploy to Vercel (Recommended)
+
+The easiest way to deploy your proctoring system:
+
+1. **Push to GitHub**
+   ```bash
+   git init
+   git add .
+   git commit -m "Initial commit"
+   git branch -M main
+   git remote add origin https://github.com/yourusername/ai-proctoring-system.git
+   git push -u origin main
+   ```
+
+2. **Deploy on Vercel**
+   - Go to [vercel.com](https://vercel.com)
+   - Click "New Project"
+   - Import your GitHub repository
+   - Click "Deploy"
+   - Done! Your app is live in ~2 minutes
+
+**Live Example:** [https://my-proctoring-app.vercel.app](https://my-proctoring-app.vercel.app)
+
+### One-Click Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/ai-proctoring-system)
+
+### Other Deployment Options
+
+- **Netlify:** Connect GitHub repo and deploy
+- **GitHub Pages:** `npm run build` then deploy `/build` folder
+- **Heroku:** Use Node.js buildpack
+- **AWS S3 + CloudFront:** Static hosting
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+Creates optimized production build in `/build` folder.
+
+---
+
 ## 💻 Usage
 
 ### Basic Operation
 
+**Using Live Demo:** Visit [https://my-proctoring-app.vercel.app](https://my-proctoring-app.vercel.app)
+
+**Using Local Installation:**
+
 1. **Launch the Application**
-   - Run `npm start`
+   - Run `npm start` (or visit the live demo)
    - Wait 15-25 seconds for AI models to load (one-time download)
    - Look for "All models loaded! Ready to start" message
 
@@ -375,7 +453,8 @@ const prohibitedKeywords = [
 - Close other apps using the camera
 - Check browser's camera settings
 - Try refreshing the page
-- Use HTTPS (required for camera access)
+- **Use HTTPS** (required for camera access - ✅ Vercel provides this automatically)
+- For localhost, use `http://localhost:3000` (allowed for development)
 
 ### Error Messages
 
@@ -658,6 +737,7 @@ If you find this project useful, please consider giving it a star on GitHub!
 - ✅ Real-time monitoring
 - ✅ Violation logging
 - ✅ Statistics dashboard
+- ✅ **Live demo deployed on Vercel:** [https://my-proctoring-app.vercel.app](https://my-proctoring-app.vercel.app)
 
 ---
 
